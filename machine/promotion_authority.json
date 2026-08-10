@@ -1,0 +1,11 @@
+{
+  "schema": "glaciereq.promotion-authority-grant.v1",
+  "repository": "GlacierEQ/fireworks-ai-optimization-safety-envelope",
+  "source_sha": "2b304ab55d240791a3cd0d0aed85cf5eec20be906ac52fecbd4652b29893d154",
+  "proof_receipt_digest": "4900ebe271ec823e3e388a0bd4d06e28edb11d6fa176fd9d3d53b69e51f067c5",
+  "not_after": 1788948656.794771,
+  "mac": "f0739f7bb031948089d459d97e43a0f53b8c8cb6259af3a1cab8c51c8ea66acf",
+  "issuer": "local_operator_promotion_authority",
+  "verified": true,
+  "secret_ref": "src/promotion_authority.py::LOCAL_OPERATOR_SECRET"
+}

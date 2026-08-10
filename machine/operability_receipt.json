@@ -1,0 +1,26 @@
+{
+  "schema": "glaciereq.operability-receipt.v1",
+  "repository": "GlacierEQ/fireworks-ai-optimization-safety-envelope",
+  "at": "2026-08-10T10:10Z",
+  "source_sha": "2b304ab55d240791a3cd0d0aed85cf5eec20be906ac52fecbd4652b29893d154",
+  "entry": "scripts/operate.py",
+  "primary_output": {
+    "module": "optimization_safety_envelope",
+    "ok": true,
+    "repository": "GlacierEQ/fireworks-ai-optimization-safety-envelope",
+    "smoke": {
+      "args": [
+        "OptimizationSafetyEnvelopeRequest(subjec"
+      ],
+      "content_checked": true,
+      "invoked": true,
+      "kind": "class",
+      "method": "evaluate",
+      "module_local": true,
+      "name": "Mechanism",
+      "result": "OptimizationSafetyEnvelopeReceipt(decision=<Decision.ALLOW: 'ALLOW'>, reasons=('scaffold_allow',), digest='de5a200a89430d2dec7318cf5aea51ee466c45d752e842d6d852e6bed15c045c', metrics={'scaffold': True, 'payload_keys': [], 'budget': 1.0})"
+    }
+  },
+  "dual_run_ok": true,
+  "result": "PASS"
+}

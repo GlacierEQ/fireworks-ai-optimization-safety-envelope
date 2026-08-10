@@ -1,0 +1,12 @@
+{
+  "schema": "glaciereq.repo-capabilities.v1",
+  "repository": "GlacierEQ/fireworks-ai-optimization-safety-envelope",
+  "capabilities": [
+    {
+      "id": "optimization-safety-envelope",
+      "name": "Optimization Safety Envelope",
+      "status": "SCAFFOLD",
+      "module": "src/optimization_safety_envelope.py"
+    }
+  ]
+}

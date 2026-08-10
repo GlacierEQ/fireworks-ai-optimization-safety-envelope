@@ -1,0 +1,31 @@
+{
+  "schema": "glaciereq.proof-receipt.v1",
+  "repository": "GlacierEQ/fireworks-ai-optimization-safety-envelope",
+  "source_sha": "2b304ab55d240791a3cd0d0aed85cf5eec20be906ac52fecbd4652b29893d154",
+  "proof_id": "elite-fireworks-ai-optimization-safety-envelope-1786356656",
+  "environment": {
+    "python": "/Users/kcbflux/.local/bin/python3.11",
+    "PYTHONPATH": "/Users/kcbflux/GlacierEQ_Swarm/job-app/repos/fireworks-ai-optimization-safety-envelope:/Users/kcbflux/GlacierEQ_Swarm/job-app/repos/fireworks-ai-optimization-safety-envelope/src",
+    "entry": "unittest"
+  },
+  "tests": [
+    "/Users/kcbflux/.local/bin/python3.11 -m unittest discover -s tests -v (x2)"
+  ],
+  "adversarial_tests": [
+    "tests/test_adversarial.py"
+  ],
+  "runtime": {
+    "operate": "scripts/operate.py (x2)",
+    "dual_run_ok": true,
+    "proof_dual_run_ok": true
+  },
+  "result": "PASS",
+  "limitations": [
+    "not production deployed",
+    "reference implementation only"
+  ],
+  "timestamp": "2026-08-10T10:10Z",
+  "artifact_hashes": {
+    "operability_receipt": "1afd9269083bf13fd5b321e7ec1678f2f03ea7b5bb23129ed241d66baf3fdd08"
+  }
+}
