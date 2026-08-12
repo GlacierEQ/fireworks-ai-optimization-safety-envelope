@@ -1,9 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "fireworks-ai-optimization-safety-envelope"
-version = "0.0.1"
-description = "Scaffold: Optimization Safety Envelope (independent Fireworks AI lens)"
+version = "1.0.0"
+description = "Workload-bounded canary and rollback controller for serving optimizations"
 requires-python = ">=3.11"
 dependencies = []
+
+[project.scripts]
+optimization-safety-envelope = "optimization_safety_cli:main"
+
+[tool.setuptools]
+py-modules = ["optimization_safety_envelope", "optimization_safety_cli", "promotion_authority"]
+package-dir = {"" = "src"}
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
