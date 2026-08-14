@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "fireworks-ai-optimization-safety-envelope"
-version = "1.0.0"
+version = "1.1.0"
 description = "Workload-bounded canary and rollback controller for serving optimizations"
 requires-python = ">=3.11"
 dependencies = []
@@ -13,7 +13,7 @@ dependencies = []
 optimization-safety-envelope = "optimization_safety_cli:main"
 
 [tool.setuptools]
-py-modules = ["optimization_safety_envelope", "optimization_safety_cli", "promotion_authority"]
+py-modules = ["optimization_safety_envelope", "optimization_safety_cli", "benchmark_evidence_adapter", "promotion_authority"]
 package-dir = {"" = "src"}
 
 [tool.pytest.ini_options]
