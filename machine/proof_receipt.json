@@ -4,12 +4,12 @@
   "source_sha": "2b304ab55d240791a3cd0d0aed85cf5eec20be906ac52fecbd4652b29893d154",
   "proof_id": "elite-fireworks-ai-optimization-safety-envelope-1786356656",
   "environment": {
-    "python": "/Users/kcbflux/.local/bin/python3.11",
-    "PYTHONPATH": "/Users/kcbflux/GlacierEQ_Swarm/job-app/repos/fireworks-ai-optimization-safety-envelope:/Users/kcbflux/GlacierEQ_Swarm/job-app/repos/fireworks-ai-optimization-safety-envelope/src",
+    "python": "${HOME}/.local/bin/python3.11",
+    "PYTHONPATH": "${HOME}/GlacierEQ_Swarm/job-app/repos/fireworks-ai-optimization-safety-envelope:${HOME}/GlacierEQ_Swarm/job-app/repos/fireworks-ai-optimization-safety-envelope/src",
     "entry": "unittest"
   },
   "tests": [
-    "/Users/kcbflux/.local/bin/python3.11 -m unittest discover -s tests -v (x2)"
+    "${HOME}/.local/bin/python3.11 -m unittest discover -s tests -v (x2)"
   ],
   "adversarial_tests": [
     "tests/test_adversarial.py"
